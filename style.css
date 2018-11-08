@@ -1,0 +1,16 @@
+.wrapper{
+    width: 100%;
+    background-color: red;
+}
+
+.instruments {
+    text-align: left
+}
+
+.workspace {
+    text-align: right
+}
+
+.pianoRoll {
+    text-align: right
+}
