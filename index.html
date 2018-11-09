@@ -6,29 +6,43 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="./index.js"></script>
+        <script src="./script.js"></script>
         <title>Yandhi DAW</title>
     </head>
     <body>
         <div class="screen">
             <div class="wrapper">
-                <div class="workspace">
+                <div class="workspace">3) Workspace
+                    <table id="workspaceTable">
+                    
+                    </table>
                 </div>
-                <div class="pianoRoll">
+                <div class="pianoRoll">2) Piano Roll
                 </div>
             </div>
             <div class="instruments">
                 <table>
                 <tr>
-                    <td><img src="./img/guitar.png"></td>    
+                    <td>1) Instruments</td>    
                 </tr>
                 <tr>
-                    <td><img src="./img/synth.png"></td>    
+                    <td><button id="guitar"><img src="./img/guitar.png"></button></td>    
                 </tr>
                 <tr>
-                    <td><img src="./img/drums.png"></td>    
+                    <td><button id="synth"><img src="./img/synth.png"></button></td>     
+                </tr>
+                <tr>
+                    <td><button id="drums"><img src="./img/drums.png"></button></td>    
                 </tr>
                 </table>
+            </div>
+        </div>
+        
+        <div id="modalOne" class="modal">
+            <div class="modal_content">
+                <span class="close">&times;</span>
+                <p>Welcome to Yandhi's DAW. To get started, click an instrument on the right, watch it appear
+                in the workspace, and adjust it in the piano roll. Enjoy!</p>
             </div>
         </div>
     </body>
