@@ -38,7 +38,7 @@ html, body {
     background-color: #333333;
 }
 
-.workspace {
+.layersView {
     text-align: left;
     width: 97%;
     height: 27vh;
@@ -48,7 +48,21 @@ html, body {
     background-color: #333333;
 }
 
-.pianoRoll {
+#layersInner {
+    text-align: center;
+    height: 90%;
+    width: 90%;
+}
+
+.layerButton {
+    border: none;
+    display: inline-block;
+    width: 15%;
+    height: 80%;
+    margin: 10px;
+}
+
+.grid {
     width: 97%;
     height: 70vh;
     border: 1px solid #89Cff0;
