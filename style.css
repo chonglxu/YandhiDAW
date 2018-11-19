@@ -41,7 +41,7 @@ html, body {
 .workspace {
     text-align: left;
     width: 97%;
-    height: 65vh;
+    height: 27vh;
     border: 1px solid red;
     margin: 5px;
 
@@ -50,23 +50,11 @@ html, body {
 
 .pianoRoll {
     width: 97%;
-    height: 30vh;
+    height: 70vh;
     border: 1px solid #89Cff0;
     margin: 5px;
     
     background-color: #333333;
-
-}
-
-#guitarRoll {
-
-}
-
-#synthRoll {
-
-}
-
-#drumsRoll {
 
 }
 
