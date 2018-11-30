@@ -1,13 +1,26 @@
 
 var grid_on_or_off;
 var rows;
-var cols
+var cols;
 
 $(document).ready(function() {
     var modal = document.getElementById('modalOne');
     var span = document.getElementsByClassName("close")[0];
 
-    modal.style.display="block"
+    $(".playpause").click(function(){
+        var $this = $(this);
+        $this.toggleClass('active');
+        if($this.hasClass('active')){
+            $this.text('PAUSE');    
+            // $("#" + audioID).trigger('PLAY');
+        } 
+        else {
+            $this.text('PLAY');
+            // $("#" + audioID).trigger('PAUSE');
+        }
+    });
+    
+    modal.style.display="block";
 
     span.onclick = function() {
         modal.style.display = "none";
